@@ -26,3 +26,9 @@ document.addEventListener("DOMContentLoaded", function () {
     closeMenu();
   };
 });
+
+async function getCards() {
+  const response = await fetch("https://sheetdb.io/api/v1/a3qhfqqslvnns");
+  const data = await response.json();
+  console.log(data);
+}

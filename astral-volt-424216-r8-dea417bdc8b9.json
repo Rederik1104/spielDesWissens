@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "astral-volt-424216-r8",
+  "private_key_id": "dea417bdc8b9bdf9d9001d95ebe13c1a5ae0721b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC0lWh9X98mIWqy\nebJmcph3jeMbl9YQvKv4MqMurIw17/kCB5NMHzvNBR9SUL8zfVL7rdXgcbMf9uk4\n+bVh4eW0XqbnH1KAuhFf0MjXfwz0GUgRuSnjfIq58mslLXiKau3Z4F4tDyZHJOYv\ndiEI36OxjgbtY8OBUvBLrThTq0LBMWPC6lTHjt6kBmnIzA6D1gaWFUPus826XNra\nV4pniyFc04IxHM5bWQiamrMFBFkNQCkwtdp4hu8lgy/nx0JWUITkuT2jPLd2rBt3\nQaOEMXwunQy/4hcqkHsMVcRtSIOJg9OWKsimFkd4jZWxZrBnRgK740C2pjKMR0TO\n598V4pNTAgMBAAECggEAB5izZqn5fdkKn0uarOmY+722j74Xs+hXIAYNTEgKgk7A\nF40QoRnW26ohmUZeGYEZOqiJszsSBHNQEbGbc9MoMd0h20SIWKbuVsZpjhTBPqSw\narwMN/TqWj+JSoaUdNb7sd5Y4XKRZlopUe//tfTADGOQa6MQCEKTawBaury2sa0o\nKc8kE2WullSzteB41Vntzw1u0Q5o6zNiFgDNTk2tMVo/HUfx946rt2ggNwI6YtEH\n78cU+Zev+YOqOb1ORRx5JASxj+0vulArmzOgNC9HJuYnzWVY2596C80ZfBeR1Tsi\nG18AM6FIr6DZJ/Ro+/SeaxkJXghnULY4Suwn/Ea+TQKBgQDoeTHR/4trEdYF/RgR\n3BSbwB6rFzXMQViLMQKvH2AJtVpRFqDdaun1w3AeisShPV1tba6onNpnNMWvaVLg\n2fDjJZFAVk67CDAUqgRUfnremcy4qK6LBkHqWDNz3K5H3Wmwh9WZ33bJEa1DKf/s\noRD5r2P1RXdsXqdq0ArA8B50RwKBgQDG2+DzrweCwuv/AntJdLcMfm54Xs/E++2B\nqq3VCpYqzt6O/7LJsnwfYN7mFk+r502In8lruGHUciSzVVDOWdOPY7TgE4U1nQ/r\naUZjwaszLXP0CvxnRU4tmTN1JHIgHKrof9dv4o5XZoBrkCk7xLieEM9ei7vGQEa8\nQi5i4yDqlQKBgFOVN4dkVLEjUYsHq37IXRR+p8gl6S7OE9K/xVJHepUjAh0DgMT7\nKrE1Gnuwsu+yC4RLmi9/bbsLq0PdH3I+ibBxkl7KaTYvxHG5iyMB8pVUQNnntBHC\nJzLlkWJH5tVp0xUoUXEoeiHi3CO41w4x/tN27v6BgmWRRqpNsIAcFScDAoGBAKPZ\nYfWHHwon72mTst+ocnax6fX2MP1ekqiHaGmkKm0lPI3Ys4irLshv+djdQ1Ih6GmN\nNtox9zGjxweYYVdU/hMklVEX5GdzfT175YqmdZhaeDL5plS07yB1HcgEeqBo3o1p\nYKqIor3y8Bcwljjv8yoSMbr2KYbFSUMuyKej+2gtAoGBANJBwCfnGPmwTM+pZiSl\nl7LpadK81V69gRO1tJnq+Weaxy6y4RbHgmKYRe32W4kiSAk+cwF8lTlBY/cfbvzS\n2S2hp6vkxLEAWUmK1IzXlHz8FJexncP9yoFTyPrYg+YHVqEfV3EYIHPyAb3ZrOSm\nOuuZK++funDBlU+dRj4VGawN\n-----END PRIVATE KEY-----\n",
+  "client_email": "spiel-des-wissens@astral-volt-424216-r8.iam.gserviceaccount.com",
+  "client_id": "118006807610602647832",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/spiel-des-wissens%40astral-volt-424216-r8.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
