@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Spiel des Wissens</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Spiel des Wissens</h1>
+      <nav>
+        <a href="spielregeln.html">Spielregeln</a>
+        <a href="hilfe.html">Webseitenhilfe</a>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <!-- Karte für normale Fragen -->
+        <div class="card">
+          <h2>Normale Fragen</h2>
+          <p>
+            Testet euer Wissen in verschiedenen Kategorien wie Geografie, Natur
+            und Technik!
+          </p>
+        </div>
+
+        <!-- Karte für Planetenfragen -->
+        <div class="planet-card">
+          <h2>Planetenfragen</h2>
+          <p>
+            Beantwortet die besonders schwierigen und kreativen Planetenfragen
+            für Extra-Punkte!
+          </p>
+        </div>
+      </div>
+      <div class="planet-menu" id="planet-menu">
+        <h3>Wähle eine Planetenfrage</h3>
+        <ul>
+          <li class="planet-mars" onclick="startQuiz('Mars')">
+            Mars – Märchen und Geschichten
+          </li>
+          <li class="planet-jupiter" onclick="startQuiz('Jupiter')">
+            Jupiter – Helden und Schurken
+          </li>
+          <li class="planet-saturn" onclick="startQuiz('Saturn')">
+            Saturn – Cartoons und Fernsehen
+          </li>
+          <li class="planet-uranus" onclick="startQuiz('Uranus')">
+            Uranus – Wort- und Sprachspiele
+          </li>
+          <li class="planet-neptun" onclick="startQuiz('Neptun')">
+            Neptun – Tiere und Pflanzen
+          </li>
+          <li class="planet-pluto" onclick="startQuiz('Pluto')">
+            Pluto – Sport und Spiel
+          </li>
+        </ul>
+        <a href="#" class="close-btn" onclick="closeMenu()">Schließen</a>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

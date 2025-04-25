@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Webseitenhilfe – Spiel des Wissens</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: #0f0f0f;
+        color: #e0e0e0;
+        font-family: "Orbitron", sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 30px;
+        background-color: #1a1a1a;
+        border-radius: 12px;
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 2.5rem;
+        background: linear-gradient(90deg, #00c3ff, #ffff1c, #ff0066);
+        background-size: 300% 300%;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: gradientShift 5s ease infinite;
+        margin-bottom: 30px;
+      }
+
+      h2 {
+        color: #00c3ff;
+        margin-top: 30px;
+        font-size: 1.4rem;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      a.back {
+        display: block;
+        text-align: center;
+        margin-top: 40px;
+        color: #00c3ff;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+      }
+
+      a.back:hover {
+        color: #ffff1c;
+      }
+
+      @keyframes gradientShift {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Webseitenhilfe</h1>
+
+      <h2>🔍 Was bietet diese Webseite?</h2>
+      <p>
+        Diese Webseite erweitert dein Brettspiel „Spiel des Wissens“ mit
+        modernen, selbst gestalteten Fragen und hilfreichen Infos.
+      </p>
+
+      <h2>🧭 So funktioniert’s:</h2>
+      <ul>
+        <li>📋 Wähle eine Kategorie oder Planetenfrage aus dem Menü.</li>
+        <li>
+          📖 Die Frage erscheint – entweder mit Antwortmöglichkeiten oder frei
+          zum Raten.
+        </li>
+        <li>🎯 Wenn du möchtest, kannst du Lösungen anzeigen lassen.</li>
+        <li>
+          🖨️ Fragen lassen sich auch als PDF herunterladen oder ausdrucken.
+        </li>
+      </ul>
+
+      <h2>📱 Kompatibilität</h2>
+      <p>
+        Die Seite funktioniert auf allen modernen Geräten – egal ob PC, Tablet
+        oder Smartphone.
+      </p>
+
+      <h2>💡 Tipp</h2>
+      <p>
+        Du kannst auch eigene Fragen einreichen oder zufällige generieren lassen
+        (falls aktiviert).
+      </p>
+
+      <a class="back" href="index.html">← Zurück zur Startseite</a>
+    </div>
+  </body>
+</html>

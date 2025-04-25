@@ -1,0 +1,200 @@
+body {
+  background: radial-gradient(ellipse at center, #1a1a1a 0%, #000000 100%);
+  color: white;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: "Orbitron", sans-serif; /* Optional: futuristischer Font */
+  font-size: 2.5rem;
+  background: linear-gradient(90deg, #00c3ff, #ffff1c, #ff0066);
+  background-size: 300% 300%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 5s ease infinite;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Farbverlauf-Animation */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Google Fonts einbinden (optional) */
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap");
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav a {
+  color: #fff;
+  margin-left: 50px;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  border: 1px solid #555;
+}
+
+nav a:hover {
+  background-color: #222;
+  border-color: #888;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-left: 75px;
+}
+.container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  width: 80%;
+}
+
+/* Karte für normale Fragen */
+.card {
+  background-color: #333;
+  color: #fff;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #00c3ff;
+}
+
+.card p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #ccc;
+}
+
+/* Karte für Planetenfragen */
+.planet-card {
+  background-color: #444;
+  color: #fff;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.planet-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.planet-card h2 {
+  margin: 0;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #ffcc00;
+}
+
+.planet-card p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #ccc;
+}
+.planet-menu {
+  display: none;
+  background-color: #333;
+  border-radius: 8px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  width: 300px;
+}
+
+.planet-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.planet-menu ul li {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #555;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.planet-menu ul li:hover {
+  background-color: #777;
+}
+
+/* Farben der Planeten */
+.planet-mars {
+  background-color: red;
+}
+.planet-jupiter {
+  background-color: yellow;
+}
+.planet-saturn {
+  background-color: blue;
+}
+.planet-uranus {
+  background-color: green;
+}
+.planet-neptun {
+  background-color: orange;
+}
+.planet-pluto {
+  background-color: purple;
+}
+
+/* Schließen Button */
+.close-btn {
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.close-btn:hover {
+  color: #fff;
+}
