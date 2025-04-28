@@ -12,6 +12,13 @@
       <nav>
         <a href="spielregeln.html">Spielregeln</a>
         <a href="hilfe.html">Webseitenhilfe</a>
+        <button
+          style="margin-left: 30px"
+          id="resetButton"
+          onclick="resetQuestions()"
+        >
+          🔓 Alle Fragen freischalten
+        </button>
       </nav>
     </header>
     <main>
@@ -37,28 +44,29 @@
       <div class="planet-menu" id="planet-menu">
         <h3>Wähle eine Planetenfrage</h3>
         <ul>
-          <li class="planet-mars" onclick="startQuiz('Mars')">
-            Mars – Märchen und Geschichten
+          <li class="planet-mars" onclick="getCards('Mars')">
+            Mars – Mathematik und Logik
           </li>
-          <li class="planet-jupiter" onclick="startQuiz('Jupiter')">
-            Jupiter – Helden und Schurken
+          <li class="planet-jupiter" onclick="getCards('Jupiter')">
+            Jupiter – Physik und Chemie
           </li>
-          <li class="planet-saturn" onclick="startQuiz('Saturn')">
-            Saturn – Cartoons und Fernsehen
+          <li class="planet-saturn" onclick="getCards('Saturn')">
+            Saturn – Biologie und Geographie
           </li>
-          <li class="planet-uranus" onclick="startQuiz('Uranus')">
-            Uranus – Wort- und Sprachspiele
+          <li class="planet-uranus" onclick="getCards('Uranus')">
+            Uranus – Englisch und Deutsch
           </li>
-          <li class="planet-neptun" onclick="startQuiz('Neptun')">
-            Neptun – Tiere und Pflanzen
+          <li class="planet-neptun" onclick="getCards('Neptun')">
+            Neptun – Geschichte und Politik
           </li>
-          <li class="planet-pluto" onclick="startQuiz('Pluto')">
-            Pluto – Sport und Spiel
+          <li class="planet-pluto" onclick="getCards('Pluto')">
+            Pluto – Sport und Musik
           </li>
         </ul>
         <a href="#" class="close-btn" onclick="closeMenu()">Schließen</a>
       </div>
     </main>
+    <div id="questionContainer"></div>
     <script src="index.js"></script>
   </body>
 </html>
