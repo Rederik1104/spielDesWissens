@@ -1,6 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
   // Alle Karten mit der Klasse 'planet-card' auswählen
   const planetCards = document.querySelectorAll(".planet-card");
+  const normalCard = document.querySelector(".card");
+
+  normalCard.addEventListener("click", function () {
+    getCards("Allgemeinwissen");
+  });
 
   planetCards.forEach(function (card) {
     // Event-Listener für jede Karte hinzufügen
@@ -71,5 +76,8 @@ function showAnswer(answer) {
 
 function resetQuestions() {
   usedQuestions = [];
+  const container = document.getElementById("questionContainer");
+  container.innerHTML = `
+  `;
   alert("Alle Fragen sind wieder freigeschaltet!");
 }
